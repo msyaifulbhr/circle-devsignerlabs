@@ -1,0 +1,120 @@
+:root {
+    --white10: #FFFFFF;
+    --white30: #CCCCCC;
+    --white50: #999999;
+    --white70: #666666;
+    --white90: #333333;
+    --grey10: #E6E6E6;
+    --grey30: #B8B8B8;
+    --grey50: #8A8A8A;
+    --grey70: #5C5C5C;
+    --grey90: #2E2E2E;
+    --black10: #0A0A0A;
+    --black30: #090909;
+    --black50: #080808;
+    --black70: #070707;
+    --black90: #050505;
+    --interbold: 700;
+    --ibmbold: 700;
+    --intersmbold: 600;
+    --intermedium: 500;
+    --ibmmedium: 500;
+    --interregular: 400;
+    --ibmregular: 400;
+}
+
+
+
+body {
+    background: var(--black10);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.nav-image {
+    width: 58px;
+}
+
+.navbar-nav {
+    margin-left: 86px;
+    margin-right: 318px;
+}
+
+.nav-link-one {
+    font-weight: var(--ibmmedium);
+}
+
+.nav-link {
+    color: #E1E1E1;
+    font-weight: var(--ibmregular);
+}
+
+.nav-item {
+    margin-right: 24px;
+}
+
+.copywriting-header{
+    padding-top: 66px;
+}
+
+.copywriting-header h1{
+    color: var(--white10);
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--interbold);
+    font-size: 80px;
+
+}
+
+.copywriting-header span {
+    background: linear-gradient(to right, #B2FEFA, #0ED2F7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: var(--interbold);
+    font-size: 80px;
+
+}
+
+.copywriting-desc{
+    margin-top: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: var(--ibmregular);  
+    color: var(--grey50);  
+}
+
+
+
+.section-image{
+    margin-top: 116px;
+}
+
+.img-hero{
+    width: 1280px;
+    height: 687px;
+    border-radius: 24px;
+}
+
+.btn-lets-building{
+    width: 244px;
+    height: 48p;
+    border-radius: 10px;
+    padding: 12px 24px;
+}
+
+.btn-lets-building p, img{
+    text-align: center;
+}
+
+.btn-lets-building img{
+    height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.btn-hero{
+    margin-top: 48px;
+}
+
+.hero{
+    background-image: url(/images/2.png);
+    background-size: cover;
+    width: 100%;
+}
